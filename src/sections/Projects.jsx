@@ -15,8 +15,8 @@ const ProjectSection = () => {
               className="project-image h-full object-cover object-center transition-all duration-500"
               loading="lazy"
             />
-            <div className="overlay tran sition-all absolute inset-0 flex flex-col items-center justify-center bg-black/80 px-6 opacity-0 duration-500">
-              <h3 className="font-PoppinsBold text-2xl text-white sm:text-4xl">
+            <div className="overlay absolute inset-0 flex flex-col items-center bg-black/80 px-6 opacity-0 transition-all duration-500">
+              <h3 className="font-PoppinsBold text-2xl text-white sm:text-4xl mt-16">
                 {project.title}
               </h3>
               <p className="my-3  text-justify text-sm leading-tight text-white/85 sm:text-base">

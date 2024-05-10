@@ -16,24 +16,31 @@ const projects = [
   {
     title: "24x7Library",
     image: "/images/Library.png",
-    desc: "24x7Library allows user to manage their book list by letting them enter any book and persisting the data in local storage. Made with HTML, TailwindCSS, and Vanilla JavaScript.",
+    desc: "Allows user to manage their book list by adding book and persisting the data in local storage. Made with HTML, TailwindCSS, and Vanilla JavaScript.",
     codeLink:
       "https://github.com/M-Taha-Amin/the-odin-project/tree/main/Library",
     liveLink: "https://m-taha-amin.github.io/the-odin-project/Library/dist/",
   },
   {
-    title: "Mini Message Board",
+    title: "Message Board",
     image: "/images/message-app.png",
-    desc: "Mini Message Board is a messaging App which allows users to add messages on the board and displays them. This is my first Backend Project. It was made using NodeJS, ExpressJS, MongoDB and EJS.",
+    desc: "A messaging App which allows users to add messages on the board and displays them. Made using NodeJS, ExpressJS, MongoDB and EJS.",
     codeLink: "https://github.com/M-Taha-Amin/Messaging-App",
     liveLink: "https://mini-message.vercel.app",
   },
   {
     title: "Portfolio Website",
     image: "/images/portfolio.png",
-    desc: "My Portfolio Website made for showcasing my projects and skills to the world and potential employers. Made with React and TailwindCSS.",
+    desc: "Website made for showcasing my projects and skills to the world and potential employers. Made with React and TailwindCSS.",
     codeLink: "https://github.com/M-Taha-Amin/Portfolio-Website",
     liveLink: "",
+  },
+  {
+    title: "Countries List",
+    image: "/images/countries-app.png",
+    desc: "Pulls data from REST API stored in json file and renders it with React + TailwindCSS. Dark Mode Feature also available.",
+    codeLink: "https://github.com/M-Taha-Amin/countries-list-app",
+    liveLink: "https://countriesinformation.vercel.app",
   },
 ];
 
