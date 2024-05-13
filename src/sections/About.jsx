@@ -7,9 +7,7 @@ const About = () => {
         {/* About Me */}
         <div className="mb-24">
           <h2 className="font-ChoplinBold text-4xl">About</h2>
-          <p className="bar text-muted relative mt-2 text-justify text-lg">
-            {about}
-          </p>
+          <p className="bar text-muted relative mt-2 text-lg">{about}</p>
         </div>
 
         {/* My Skills */}

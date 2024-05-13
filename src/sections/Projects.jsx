@@ -16,10 +16,10 @@ const ProjectSection = () => {
               loading="lazy"
             />
             <div className="overlay absolute inset-0 flex flex-col items-center bg-black/80 px-6 opacity-0 transition-all duration-500">
-              <h3 className="font-PoppinsBold text-2xl text-white sm:text-4xl mt-16">
+              <h3 className="mt-16 font-PoppinsBold text-2xl text-white sm:text-4xl">
                 {project.title}
               </h3>
-              <p className="my-3  text-justify text-sm leading-tight text-white/85 sm:text-base">
+              <p className="my-3  text-center text-sm leading-tight text-white/85 sm:text-base">
                 {project.desc}
               </p>
             </div>
